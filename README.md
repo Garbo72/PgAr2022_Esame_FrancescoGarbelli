@@ -1,22 +1,22 @@
-# PgAr2022_Esame_ < NomeCognome >
+# PgAr2022_Esame_ < Francesco Garbelli >
 ## Candidato
 
  | | |
  | -------------- | --------------- |
- | Nome | ** < Nome >** |
- | Cognome | ** < Cognome >** |
- | Matricola | ** < Matricola >** |
- | Corso di Studi | ** < C . D . S . >** |
+ | Nome | ** < FRANCESO >** |
+ | Cognome | ** < GARBELLI >** |
+ | Matricola | ** < 735877 >** |
+ | Corso di Studi | ** < AUTOMAZIONE >** |
 
  ## Moduli Implementati
 
  <! - - Spuntare con una ’X ’ i moduli implementati -->
 
  - Modulo 1
- - [ ] Modulo 1. A : Lettura XML e creazione mappa
- - [ ] Modulo 1. B : Creazione casuale della mappa
- - [ ] Modulo 2: Scale e miniboss
+ - [X] Modulo 1. A : Lettura XML e creazione mappa
+ - [X] Modulo 1. B : Creazione casuale della mappa
+ - [X] Modulo 2: Scale e miniboss
  - [ ] Modulo 3: Pathfinding dei mostri
- - [ ] Modulo 4: Zaino ed effetti
+ - [X] Modulo 4: Zaino ed effetti
  - [ ] Modulo 5: Shop e Monete
  - [ ] Modulo 6: Dijikstra
