@@ -1,8 +1,7 @@
 package it.unibs.esame;
 
-import java.io.File;
-
 import javax.xml.stream.XMLStreamException;
+
 
 public class Mappa {
 	
@@ -14,9 +13,13 @@ public class Mappa {
 	}
 
 	public Mappa() {
-		
+
 	}
 	
+
+	/**
+	 * metodo di stampa della mappa
+	 */
 	public void stampa() {
 		for (int i=0; i<mappa.length; i++) {
 			System.out.printf("      ");
@@ -26,6 +29,16 @@ public class Mappa {
 			System.out.println();
 		}
 	}
+
+	public void diventa(Coordinate attuali, String segno) {
+		mappa[attuali.getRiga()][attuali.getColonna()] = segno; 
+		
+	}
+	
+	public boolean verificaSegno(Coordinate xy, String segno) {
+		return mappa[xy.getRiga()][xy.getColonna()].equals(segno);
+	}
+
 	
 	
 	

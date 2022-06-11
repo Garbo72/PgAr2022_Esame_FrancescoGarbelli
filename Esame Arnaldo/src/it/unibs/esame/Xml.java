@@ -13,12 +13,12 @@ import javax.xml.stream.XMLStreamReader;
 public class Xml {
 
 	
-	private final static String nomeFile = "livello1.xml";
+	private static String nomeFile = "";
 	XMLInputFactory xmlif;
 	XMLStreamReader xmlr ;
 
 	public Xml(String nomeFile) {
-		//this.nomeFile = nomeFile;
+		this.nomeFile = nomeFile;
 	}
 	
 	
@@ -85,7 +85,7 @@ public class Xml {
 						
 						if (next.equals("cell"))
 							creazioneMappa [indiceRiga][indiceColonna]= xmlr.getText();
-				    	 System.out.println(indiceRiga +" "+ indiceColonna);
+				    	 //System.out.println(indiceRiga +" "+ indiceColonna);
 						indiceColonna++;
 									
 					}

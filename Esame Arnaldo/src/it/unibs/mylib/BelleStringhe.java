@@ -1,4 +1,4 @@
-package it.unibs.fp.mylib;
+package it.unibs.mylib;
 public class BelleStringhe
 {
 
