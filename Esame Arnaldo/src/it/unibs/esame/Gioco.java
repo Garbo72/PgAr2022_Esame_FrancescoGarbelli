@@ -57,7 +57,8 @@ public class Gioco {
 		boolean giusto = false;
 		System.out.println("digitare un comado per spostarsi oppure digitare - se si vuole aprire il menù:\n");
 		comandi();
-		String comando = InputDati.leggiStringaNonVuota(">");
+		String comando = " ";
+		comando = InputDati.leggiStringaNonVuota(">");
 		do {
 			Coordinate attuali = gio.getPosizione();
 			int r = attuali.getRiga();

@@ -14,7 +14,7 @@ public class Personaggio extends Ruolo{
 	
 	
 	public Personaggio(String nome) {
-		super(nome, 20, new Coordinate(21, 12));
+		super(nome, 20, new Coordinate(21, 0));
 	}
 
 
